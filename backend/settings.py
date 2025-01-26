@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6o&(i6oc=3kv13n_@z%67c3)*pm@wkrb79cb=-wkvj^43d2wm1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dj-api-ysk4.onrender.com']
+ALLOWED_HOSTS = ['dj-api-ysk4.onrender.com', '127.0.0.1'] # BORRAR localhost !!!
 
 
 # Application definition

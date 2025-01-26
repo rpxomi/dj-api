@@ -5,5 +5,7 @@ from .models import Producto
 class ProductoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Producto
-        fields = ['id', 'nombre', 'descripcion', 'precio'] # como un DTO de Spring en Java, filtra que mostrar en la respuesta
+
+        # como un DTO de Spring en Java, filtra que mostrar en la respuesta
+        fields = ['id', 'titulo', 'descripcion', 'precio', 'imagen_url']
 
